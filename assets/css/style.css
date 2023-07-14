@@ -1,0 +1,661 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    height: 3860px;
+}
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    align-items: center;
+    position: relative;
+}
+
+header {
+    width: 100%;
+    background-image: url(../image/young-woman-relaxing-on-a-rowing-boat-enjoying-the-nature-free-photo-2210x1473.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.head-bar ul  {  
+    display: flex;
+    gap: 60px;
+    font-size: 15px;
+    font-family: 'Raleway';
+}
+.logo {
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+}
+.logo a {
+    color: #fff;
+    text-shadow: 0px 0px 10px black;
+}
+.logo i {
+    color: rgb(215, 215, 16);
+}
+.head-bar ul li a {
+    color: #fff;
+    text-shadow: 0px 0px 10px black;
+}
+.head-bar ul li a:hover {
+    color: #103752;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 440px;
+    width: 740px;
+    justify-content: center;
+    font-size: 44px;
+    line-height: 62px;
+    font-family: 'Raleway';
+    color: #fff;
+    text-shadow: 0px 0px 10px black;
+}
+.content span {
+    font-size: 17px;
+}
+.content button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    box-shadow: 0px 0px 2px 0px black;
+    background-color: rgb(205 220 18);
+    color: #103752;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 13px;
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+.content button:hover {
+    color: rgb(215, 215, 16);
+    background-color: #103752;
+}
+.rows {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    width: 1060px;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 230px;
+    padding-bottom: 30px;
+    bottom: 0px;
+}
+.rows button {
+    width: 55px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(145 145 145 / 70%);
+    color: #fff;
+}
+.rows button:hover {
+    background-color: #fff;
+    color: rgb(145, 145, 145);
+}
+.rows span {
+    color: #fff;
+    font-size: 17px;
+    margin: 0px 10px 0px 10px;
+    font-family: sans-serif;
+}
+table {
+    width: 1090px;
+    color: #fff;
+    text-shadow: -2px 0px 7px black;
+}
+table thead {
+    text-align-last: start;
+    font-size: 45px;
+    font-family: 'Font Awesome 6 Free';
+    letter-spacing: 5px;
+}
+tbody {
+    font-family: 'Raleway';
+}
+tbody #tr {
+    font-size: 23px;
+}
+tbody #tr td {
+    padding: 10px 0px 10px 0px;
+}
+tbody #tr2 {
+    font-size: 15px;
+}
+#information {
+    background-color: rgb(205 220 18/ 59%);
+    height: 460px;
+}
+.information {
+    color: #103752;
+    font-family: 'Raleway';
+    margin-top: 70px;
+}
+.icon {
+    display: flex;
+}
+.icon div {
+    font-size: 70px;
+    width: 354px;
+}
+.content-bold {
+    display: flex;
+}
+.content-bold h2 {
+    width: 354px;
+    line-height: 60px;
+}
+.content-thin {
+    display: flex;
+}
+.content-thin p {
+    width: 354px;
+    font-size: 22px;
+}
+.destinations {
+    font-family: 'Raleway';
+    letter-spacing: inherit;
+    line-height: 51px;
+    font-size: 36px;
+}
+.destinations p {
+    font-size: 20px;
+}
+#button-left {
+    position: absolute;
+    right: 310px;
+    border: 2px solid #103752;
+    background-color: #fff;
+    color: #103752;
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+}
+#button-right {
+    position: absolute;
+    right: 228px;
+    border: 2px solid #103752;
+    background-color: #fff;
+    color: #103752;
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+}
+#button-left:hover {
+    background-color: #103752;
+    color: #fff;
+}
+#button-right:hover {
+    background-color: #103752;
+    color: #fff;
+}
+figure {
+    display: flex;
+    width: 1063px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card-1 {
+    background-image: url(../image/intercontinental-bali.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 230px;
+    height: 350px;
+    display: flex;
+    border-radius: 30px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 50px;
+    color: #fff;
+    line-height: 29px;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    box-shadow: 0px 0px 20px 0px black;
+    text-shadow: 0px 2px 6px black;
+}
+.card-1 img {
+    width: 13px;
+    margin-right: 5px;
+}
+.card-1 span:first-child {
+    font-size: 30px;
+}
+.card-2 {
+    background-image: url(../image/istockphoto-1170139916-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 230px;
+    height: 350px;
+    display: flex;
+    border-radius: 30px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 50px;
+    color: #fff;
+    line-height: 29px;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    box-shadow: 0px 0px 20px 0px black;
+    text-shadow: 0px 2px 6px black;
+}
+.card-2 img {
+    width: 13px;
+    margin-right: 5px;
+}
+.card-2 span:first-child {
+    font-size: 30px;
+}
+.card-3 {
+    background-image: url(../image/1200px-Uludağ_-_Olympos_Misios.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 230px;
+    height: 390px;
+    display: flex;
+    border-radius: 30px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 50px;
+    color: #fff;
+    line-height: 29px;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    box-shadow: 0px 0px 20px 0px black;
+    text-shadow: 0px 2px 6px black;
+}
+.card-3 img {
+    width: 13px;
+    margin-right: 5px;
+}
+.card-3 span:first-child {
+    font-size: 30px;
+}
+.card-3 span:last-child {
+    margin-top: 10px;
+}
+.card-3 button {
+    background-color: rgb(205 220 18);
+    color: #103752;
+    border: none;
+    border-radius: 20px;
+    width: 145px;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.card-4 {
+    background-image: url(../image/c14047427d6186a6f9794d8fd061bd4b.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 230px;
+    height: 350px;
+    display: flex;
+    border-radius: 30px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 50px;
+    color: #fff;
+    line-height: 29px;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    box-shadow: 0px 0px 20px 0px black;
+    text-shadow: 0px 2px 6px black;
+}
+.card-4 img {
+    width: 13px;
+    margin-right: 5px;
+}
+.card-4 span:first-child {
+    font-size: 30px;
+}
+.text-1 {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    color: #103752;
+}
+.text-1 p {
+    font-size: 19px;
+    width: 410px;
+    margin-top: 30px;
+}
+.card-man {
+    background-image: url(../image/man.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 270px;
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 60px;
+    box-shadow: 0px 0px 20px -8px black;
+}
+.go-nav {
+    display: flex;
+    line-height: 40px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 19px;
+    font-family: 'Playfair Display';
+    margin-top: 50px;
+    color: #103752;
+}
+.go-nav p {
+    width: 259px;
+    font-size: 14px;
+}
+.go-nav a {
+    font-size: 14px;
+    color: #103752;
+    padding-right: 10px;
+    border-bottom: 1px solid #103752;
+}
+.paragraphy {
+    color: #0d5262;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-family: 'Raleway';
+    margin: 50px 0px 30px 0px;
+}
+.paragraphy p {
+    font-size: 20px;
+}
+.paragraphy h1 {
+    font-size: 50px;
+}
+/* .background {
+    position: absolute;
+    background-color: #efefef;
+    width: 100%;
+    height: 510px;
+    top: 2510px;
+} */
+.countries {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 999999;
+    font-family: 'Raleway';
+}
+.country-1 {
+    background-image: url(../image/roma.jpg);
+    width: 330px;
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-shadow: -1px -17px 20px black;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 1px 1px 20px -9px black;
+}
+.country-2 {
+    background-image: url(../image/milan.jpg);
+    width: 698px;
+    height: 220px;
+    background-position: bottom;
+    background-size: cover;
+    color: #fff;
+    text-shadow: -1px -17px 20px black;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 1px 1px 20px -9px black;
+}.country-3 {
+    background-image: url(../image/raja.jpg);
+    width: 330px;
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-shadow: -1px -17px 20px black;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 1px 1px 20px -9px black;
+}.country-4 {
+    background-image: url(../image/tiga.jpg);
+    width: 330px;
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-shadow: -1px -17px 20px black;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 1px 1px 20px -9px black;
+}.country-5 {
+    background-image: url(../image/sempu.jpg);
+    width: 330px;
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-shadow: -1px -17px 20px black;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 1px 1px 20px -9px black;
+}
+.journey button {
+    position: relative;
+    left: 450px;
+    top: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(215, 215, 16);
+    color: #103752;
+    border: none;
+    border-radius: 30px;
+    font-size: 12px;
+    font-family: 'Font Awesome 5 Free';
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.journey button:hover {
+    background-color: #103752;
+    color: rgb(215, 215, 16);
+}
+.rating {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-family: 'Raleway';
+    margin-top: 130px;
+}
+.rating h1 {
+    font-size: 50px;
+    width: 520px;
+}
+.rating p {
+    font-size: 24px;
+    margin-top: 40px;
+    width: 487px;
+}
+.rate {
+    position: absolute;
+    top: 410px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:45px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffb700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #ffb700;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #ffb700;
+}
+.photo {
+    background-image: url(../image/jhon4.avif);
+    width: 340px;
+    height: 340px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px 170px 170px 170px;
+    position: absolute;
+    right: 80px;
+    top: 270px;
+}
+.frame-photos {
+    display: flex;
+    width: 410px;
+    justify-content: space-between;
+    position: relative;
+    top: 180px;
+    line-height: 0;
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+.frame-photo {
+    background-image: url(../image/jhon1.jpg);
+    width: 70px;
+    height: 70px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 40px;
+    position: absolute;
+    bottom: 30px;
+    box-shadow: 0px 0px 20px -10px black;
+}
+.frame-photo2 {
+    background-image: url(../image/jhon2.jpg);
+    width: 70px;
+    height: 70px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 40px;
+    position: absolute;
+    bottom: 30px;
+    left: 170px;
+    box-shadow: 0px 0px 20px -10px black;
+}
+.frame-photo3 {
+    background-image: url(../image/jhon3.jpg);
+    width: 70px;
+    height: 70px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 40px;
+    position: absolute;
+    bottom: 30px;
+    left: 340px;
+    box-shadow: 0px 0px 20px -10px black;
+}
+footer {
+    background-color: #103752;
+    position: relative;
+    top: 327px;
+    height: 200px;
+}
+.footer-bar ul {
+    display: flex;
+    gap: 60px;
+    font-size: 15px;
+    font-family: 'Raleway';
+}
+.footer-bar ul li a {
+    color: #fff;
+    text-shadow: 0px 0px 10px black;
+}
+.logo1 {
+    margin-top: 10px;
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+}
+.logo1 a {
+    color: #fff;
+    text-shadow: 0px 0px 10px black;
+}
+.logo1 i {
+    color: rgb(215, 215, 16);
+}
+hr {
+    width: 1065px;
+    margin: 20px 0px 0px 228px;
+}
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 216px 0px 228px;
+    color: white;
+    font-family: 'Roboto';
+}
+.social {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 150px;
+    font-size: 18px;
+}
+.social a {
+    color: #fff;
+}
